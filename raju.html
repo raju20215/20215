@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>minip</title>
+</head>
+<body>
+    <section class="showcase"> 
+ <header>
+     <h2 class="logo">minip</h2>
+     <div class="toggle"></div>
+ </header>
+  <video  src="pexels-sathyaprabha-rakkimuthu-5613843.mp4" autoplay muted loop ></video> 
+ <div class="overlay"></div>
+ <div class="text">
+     <h2>hello</h2>
+     <h3>how are you ?</h3>
+     <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error beatae quia consequatur modi nam repellat nemo repellendus ipsam saepe nisi.</h4>
+     <a href="#">Explore</a>
+ </div>
+     <ul class="social">
+        <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+        <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+        <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+     </ul>
+
+</section>
+<div class="menu">
+    <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">news</a></li>
+        <li><a href="#">details</details></a></li>
+        <li><a href="#">others</a></li>
+    </ul>
+</div>
+<script>
+    const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+</script>
+    
+</body>
+</html>
